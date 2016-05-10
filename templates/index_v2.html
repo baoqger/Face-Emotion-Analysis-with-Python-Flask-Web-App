@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div id="form_holder">
+    <form action= "upload" method="post" enctype="multipart/form-data" onsubmit="myFunction()">
+        <img id="currentImage" src="/static/1.jpg" alt="Mountain View" style="width:304px;height:228px;">
+		<input type="file" name="file" onchange="onFileSelected(event)">
+        <input type="submit" value="Analyse the image v2">
+		<p id="result"> </p>
+    </form>
+</div>
+<canvas id="result"></canvas>
+{% endblock %}
+

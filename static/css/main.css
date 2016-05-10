@@ -1,0 +1,48 @@
+html > body {
+    background: #333;
+}
+
+#form_holder {
+    text-align: center;
+    margin-top:40px;
+}
+
+#form_holder > form {
+    width:98%;
+    display: inline-block;
+}
+#form_holder > form > * {
+    padding:12px;
+    border:none;
+    border-radius: 0.2em;
+    -webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+}
+/*
+#form_holder textarea {
+    height:150px;
+    min-width: 300px;
+    width:50%;
+    outline:none;
+}
+*/
+
+
+
+#form_holder input[type="submit"] {
+    min-width:150px;
+    margin-top:30px;
+    background:#b05ecc;
+    color:white;
+}
+
+
+
+#imagefile {
+    max-width:90%;
+    width:250px;
+    display: block;
+    margin:30px auto;
+	color:white;
+}
